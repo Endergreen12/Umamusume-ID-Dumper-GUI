@@ -166,7 +166,7 @@ namespace Umamusume_ID_Dumper_GUI
 
             saveFileDialog.FileName = cmbBoxData.Text + ".txt";
             saveFileDialog.Title = "";
-            saveFileDialog.Filter = "テキストファイル(*.txt)|*.txt";
+            saveFileDialog.Filter = "(*.txt)|*.txt";
 
             if(saveFileDialog.ShowDialog() == DialogResult.OK)
             {

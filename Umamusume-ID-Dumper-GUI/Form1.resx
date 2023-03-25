@@ -127,6 +127,10 @@
   <data name="id.HeaderText" xml:space="preserve">
     <value>ID</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="id.Width" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
   <metadata name="name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -140,7 +144,6 @@
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
     <value>775, 383</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -244,7 +247,7 @@
     <value>1</value>
   </data>
   <data name="btnSaveToFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+    <value>Bottom, Right</value>
   </data>
   <data name="btnSaveToFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>618, 415</value>
